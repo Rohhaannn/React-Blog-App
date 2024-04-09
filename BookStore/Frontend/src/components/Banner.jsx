@@ -21,7 +21,7 @@ function Banner() {
             </label>
 
           </div>
-            <button className="btn mt-6 btn-secondary">Secondary</button>
+            <button className="btn mt-6 btn-secondary">Send</button>
         </div>
 
         <div className='order-1 w-full md:w-1/2 px-10 mt-7 md:mt-14'>
