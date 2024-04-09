@@ -110,6 +110,7 @@ function Navbar() {
                 Login
               </a>
             </div>
+            
           </div>
         </div>
       </div>
