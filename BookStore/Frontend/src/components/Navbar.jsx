@@ -7,7 +7,7 @@ function Navbar() {
         <a> Home </a>
       </li>
       <li>
-        <a> Course </a>
+        <a> Free Books </a>
       </li>
       <li>
         <a> Contact </a>
