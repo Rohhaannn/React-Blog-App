@@ -51,9 +51,10 @@ function FreeBooks() {
 
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias aliquid numquam ipsa inventore eligendi maxime blanditiis quibusdam nihil eos ipsam doloribus sit, voluptate laboriosam beatae ab perferendis sed expedita? </p>
 
-      </div>
+        </div>
 
-      <div>
+        <div>
+          
         <div className="slider-container">
         <Slider {...settings}>
           <div>
