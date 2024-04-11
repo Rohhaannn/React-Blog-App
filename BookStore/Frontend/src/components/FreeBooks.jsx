@@ -46,42 +46,35 @@ function FreeBooks() {
   return (
     <>
       <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
-        
-        <h1 className='font-semibold text-xl'> Free Offered Books </h1>
-
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias aliquid numquam ipsa inventore eligendi maxime blanditiis quibusdam nihil eos ipsam doloribus sit, voluptate laboriosam beatae ab perferendis sed expedita? </p>
-
-        </div>
-
         <div>
-          
-        <div className="slider-container">
-        <Slider {...settings}>
-          <div>
-            <h3>1</h3>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-          <div>
-            <h3>7</h3>
-          </div>
-          <div>
-            <h3>8</h3>
-          </div>
-        </Slider>
+          <h1 className='font-semibold text-xl pb-2'> Free Offered Books </h1>
+
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias aliquid numquam ipsa inventore eligendi maxime blanditiis quibusdam nihil eos ipsam doloribus sit, voluptate laboriosam beatae ab perferendis sed expedita? </p> 
+        </div>
+      </div>
+
+      <div>
+        <div className="slider-container ">
+          <Slider {...settings}>
+            <div>
+              <h3> Card 1 </h3>
+            </div>
+            <div>
+              <h3> Card 2 </h3>
+            </div>
+            <div>
+              <h3> Card 3 </h3>
+            </div>
+            <div>
+              <h3> Card 4 </h3>
+            </div>
+            <div>
+              <h3> Card 5 </h3>
+            </div>
+            <div>
+              <h3> Card 6 </h3>
+            </div>
+          </Slider>
         </div>
       </div>
     </>
