@@ -5,11 +5,13 @@ function Cards({item}) {
   return (
     <>
       <div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96  shadow-xl">
           <figure>
             <img
               src={item.image}
               alt="Shoes"
+              width={350}
+              height={350}
             />
           </figure>
           <div className="card-body">
