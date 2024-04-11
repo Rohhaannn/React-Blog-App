@@ -3,6 +3,7 @@ import list from '../../public/list.json'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import Cards from './Cards';
 
 function FreeBooks() {
 
@@ -54,26 +55,11 @@ function FreeBooks() {
       </div>
 
       <div>
-        <div className="slider-container ">
+        <div className="slider-container max-w-screen-2xl container mx-auto md:px-20 px-4 cursor-grab ">
           <Slider {...settings}>
-            <div>
-              <h3> Card 1 </h3>
-            </div>
-            <div>
-              <h3> Card 2 </h3>
-            </div>
-            <div>
-              <h3> Card 3 </h3>
-            </div>
-            <div>
-              <h3> Card 4 </h3>
-            </div>
-            <div>
-              <h3> Card 5 </h3>
-            </div>
-            <div>
-              <h3> Card 6 </h3>
-            </div>
+            {filterData.map((item)=> (
+              <Cards item={item} key={item.id}/>
+            ))}
           </Slider>
         </div>
       </div>
