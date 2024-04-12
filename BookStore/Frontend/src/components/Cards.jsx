@@ -4,8 +4,8 @@ function Cards({item}) {
   console.log(item);
   return (
     <>
-      <div>
-        <div className="card w-96  shadow-xl">
+      <div className="mt-5 my-5 gap-3">
+        <div className="card w-96 shadow-2xl">
           <figure>
             <img
               src={item.image}
@@ -20,9 +20,9 @@ function Cards({item}) {
               <div className="badge badge-secondary">{item.category}</div>
             </h2>
             <p> {item.title} </p>
-            <div className="card-actions justify-end">
-              <div className="badge badge-outline"> {item.price} </div>
-              <div className="cursor-pointer px-2 py-1 rounded-full border-[2px] hover:bg-pink-500 hover:text-white duration-200"> Buy Now </div>
+            <div className="card-actions flex justify-between">
+              <div className="badge badge-outline"> ${item.price} </div>
+              <div className="cursor-pointer px-3 py-1 rounded-full border-[2px] hover:bg-pink-500 hover:text-white duration-200"> Buy Now </div>
             </div>
           </div>
         </div>
