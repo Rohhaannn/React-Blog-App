@@ -1,8 +1,6 @@
 import './App.css'
-import Navbar from './components/Navbar'
-import Banner from './components/Banner'
-import Footer from './components/Footer'
-import FreeBooks from './components/FreeBooks'
+import Home from './Home/Home'
+
 
 
 function App() {
@@ -10,10 +8,7 @@ function App() {
 
   return (
     <>
-      <Navbar/>
-      <Banner/>
-      <FreeBooks/>
-      <Footer/>
+      <Home/>
     </>
   )
 }
