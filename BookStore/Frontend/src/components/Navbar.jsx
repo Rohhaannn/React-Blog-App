@@ -11,16 +11,16 @@ function Navbar() {
         <Link to="/course"> Free Books </Link>
       </li>
       <li>
-        <Link> Contact </Link>
+        <Link to="/contact"> Contact </Link>
       </li>
       <li>
-        <Link> About </Link>
+        <Link to="/about"> About </Link>
       </li>
     </>
   );
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 fixed top-0 left-0 right-0 z-50">
+      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 fixed top-0 left-0 right-0 z-50 shadow-2xl">
         <div className="navbar bg-base-100">
           <div className="navbar-start">
             <div className="dropdown">
