@@ -6,7 +6,7 @@ function Banner() {
     <>
       <div className='max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row mb-20'> 
 
-        <div className='w-full md:w-1/2 mt-10 md:mt-24 order-2 md:order-1'> 
+        <div className='w-full md:w-1/2 mt-12 md:mt-24 order-2 md:order-1'> 
           <div className='space-y-12'>
 
             <h1 className='text-4xl'> Hello Welcome here to learn something <span className='text-pink-500'> New Everyday </span> </h1>
@@ -24,7 +24,7 @@ function Banner() {
             <button className="btn mt-6 btn-secondary">Send</button>
         </div>
 
-        <div className='order-1 w-full md:w-1/2 px-10 mt-10 md:mt-24'>
+        <div className='order-1 w-full md:w-1/2 px-10 mt-12 md:mt-24'>
           <img src={Book_SALT_Water} className='w-75 h-115' alt="Banner Image"/>
         </div>
         
