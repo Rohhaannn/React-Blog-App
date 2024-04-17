@@ -13,7 +13,7 @@ function Course() {
           <p className='mt-12'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto soluta, perferendis vero deserunt consequuntur sunt in nemo earum nobis natus necessitatibus dolorum assumenda ex, mollitia eos? Voluptatum accusamus nisi dolores.</p>
 
           <Link to="/">
-            <button className="btn mt-6 btn-secondary hover:bg-pink-600 duration-300"> Back </button>
+            <button className="btn mt-6 btn-secondary hover:bg-pink-600 hover:text-white duration-300"> Back </button>
           </Link>
 
         </div>
