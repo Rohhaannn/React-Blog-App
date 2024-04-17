@@ -51,7 +51,7 @@ function Navbar() {
                 {navItems}
               </ul>
             </div>
-            <a className="text-2xl font-bold">Book Store</a>
+            <Link to="/" className="text-2xl font-bold">Book Store</Link>
           </div>
 
           <div className="navbar-end space-x-3">
