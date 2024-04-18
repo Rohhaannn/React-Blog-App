@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom'
 import Cards from './Cards'
 import list from '../../public/list.json'
 
+
 function Course() {
+  const filterData = list.filter((data)=> data.category === "Free")
   return (
     <>
       <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
@@ -20,9 +22,9 @@ function Course() {
 
         <div>
           {
-            list.map((item)=>{
-              <Cards key={item.id} item={item}/>
-            })
+            filterData.map((item)=> (
+              <Cards item={item} key={item.id}/>
+            ))
           }
         </div>
 
