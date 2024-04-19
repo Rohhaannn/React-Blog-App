@@ -11,8 +11,8 @@ function Cards({item}) {
             <img
               src={item.image}
               alt="Shoes"
-              width={350}
-              height={350}
+              width={300}
+              height={300}
             />
           </figure>
 
