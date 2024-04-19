@@ -20,7 +20,7 @@ function Course() {
 
         </div>
 
-        <div className='mt-12 grid grid-cols-1 md:grid-cols-3'>
+        <div className='mt-12 grid grid-cols-1 md:grid-cols-3 items-center justify-center'>
           {
             filterData.map((item)=> (
               <Cards item={item} key={item.id}/>
