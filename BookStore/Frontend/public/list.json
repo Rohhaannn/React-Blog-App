@@ -78,6 +78,14 @@
     "price" : 0,
     "category": "Free",
     "image": "https://w.forfun.com/fetch/1d/1da001d659ae466369217020a2b9d111.jpeg"
+  },
+  {
+    "id": 11,
+    "name" : "Logic Building",
+    "title" : "Logical Coding",
+    "price" : 1500,
+    "category": "Paid",
+    "image": "https://w.forfun.com/fetch/1d/1da001d659ae466369217020a2b9d111.jpeg"
   }
   
 

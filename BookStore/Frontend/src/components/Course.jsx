@@ -5,7 +5,7 @@ import list from '../../public/list.json'
 
 
 function Course() {
-  const filterData = list.filter((data)=> data.category === "Free")
+  const filterData = list.filter((data)=> data)
   return (
     <>
       <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
