@@ -5,7 +5,7 @@ function Cards({item}) {
   return (
     <>
       <div className="mt-5 my-5 gap-3">
-        <div className="card w-96 shadow-2xl hover:scale-105 duration-200">
+        <div className="card w-96 shadow-2xl hover:scale-105 duration-200 light:bg-white dark:bg-white dark:text-black border">
 
           <figure>
             <img
@@ -13,6 +13,7 @@ function Cards({item}) {
               alt="Shoes"
               width={300}
               height={300}
+              className="mt-8 rounded-lg shadow-md"
             />
           </figure>
 
