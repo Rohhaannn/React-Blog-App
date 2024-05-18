@@ -163,7 +163,7 @@ function Navbar() {
             <div>
               <a 
                 className={`bg-black text-white px-3 py-2 rounded-md duration-300 cursor-pointer
-                ${theme === "dark" ? "bg-white text-[#111111]" : "bg-black text-white"}
+                ${theme === "dark" ? "bg-white text-[#111]" : "bg-black text-white"}
               `}
                 onClick={()=>document.getElementById("my_modal_3").showModal()}
               >
