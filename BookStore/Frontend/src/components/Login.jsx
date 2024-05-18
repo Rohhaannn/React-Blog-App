@@ -43,7 +43,7 @@ function Login() {
 
           <div className="items-center text-center mt-7">
             <p>
-              Not registered ? <Link to="/signup" className="text-blue-600 underline cursor-pointer"> Sign Up </Link>
+              Not registered ? <Link to="" className="text-blue-600 underline cursor-pointer"> Sign Up </Link>
             </p>
           </div>
 
