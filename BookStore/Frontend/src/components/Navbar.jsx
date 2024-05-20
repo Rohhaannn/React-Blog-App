@@ -162,9 +162,9 @@ function Navbar() {
 
             <div>
               <a 
-                className={`bg-black text-white px-3 py-2 rounded-md duration-300 cursor-pointer
-                ${theme === "dark" ? "bg-white text-[#111]" : "bg-black text-white"}
-              `}
+                className={`bg-black text-white px-3 py-2 rounded-md duration-300 cursor-pointer dark:bg-black dark:text-white
+                ${theme === "dark" ? "bg-white text-black" : "bg-black text-[#fff]"}
+                `}
                 onClick={()=>document.getElementById("my_modal_3").showModal()}
               >
                 Login
